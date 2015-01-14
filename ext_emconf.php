@@ -10,7 +10,7 @@
  * writing. "version" and "dependencies" must not be touched!
  ***************************************************************/
 
-$EM_CONF[$_EXTKEY] = array (
+$EM_CONF[$_EXTKEY] = array(
 	'title' => 'htmlArea RTE - Paste As Plain Text',
 	'description' => 'This extension forces htmlArea RTE to automatically paste the 
 clipboard content as plain text. Developed and tested with rtehtmlarea 1.8.6 and Typo3 4.3.0',
@@ -23,17 +23,12 @@ clipboard content as plain text. Developed and tested with rtehtmlarea 1.8.6 and
 	'author' => 'Alexander Dick',
 	'author_email' => 'alex@dick.at',
 	'author_company' => '',
-	'constraints' => 
-	array (
-		'depends' => 
-		array (
+	'constraints' => array(
+		'depends' => array(
+			'typo3' => '6.2.0-6.2.99'
 		),
-		'conflicts' => 
-		array (
-		),
-		'suggests' => 
-		array (
-		),
+		'conflicts' => array(),
+		'suggests' => array(),
 	),
 );
 
