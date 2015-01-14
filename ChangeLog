@@ -1,0 +1,13 @@
+2010-01-30 Alexander Dick  <alex@dick.at>
+
+	* initial code generated with kickstarter
+
+2010-02-02 Alexander Dick  <alex@dick.at>
+	
+	* replaced popup window by a css layer
+	* added support for multiple RTE's in one TCEform
+	* general code optimization
+	
+2010-02-03 Alexander Dick  <alex@dick.at>
+	
+	* updated manual
