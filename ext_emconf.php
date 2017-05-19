@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'title' => 'htmlArea RTE - Paste As Plain Text',
 	'description' => 'This extension forces htmlArea RTE to automatically paste the clipboard content as plain text. Developed and tested with rtehtmlarea and TYPO3 7.6.0',
 	'category' => 'be',
-	'version' => '2.1.6',
+	'version' => '3.0.0',
 	'state' => 'beta',
 	'uploadfolder' => 0,
 	'createDirs' => '',
@@ -24,7 +24,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'author_company' => '',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '7.6.0-7.6.99'
+			'typo3' => '8.4.0 - 8.9.99'
 		),
 		'conflicts' => array(),
 		'suggests' => array(),

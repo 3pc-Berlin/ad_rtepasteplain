@@ -1,0 +1,33 @@
+{
+  "name": "jokumer/ad_rtepasteplain",
+  "type": "typo3-cms-extension",
+  "description": "Paste plain text (with MS Word and other Markup stripped off)",
+  "version": "3.0.0",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Alexander Dick",
+      "role": "Developer"
+    },
+    {
+      "name": "Alexander Kellner",
+      "role": "Developer"
+    },
+    {
+      "name": "Jörn Kummer",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": ">=8.4.1, <9.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TYPO3\\CMS\\AdRtepasteplain\\": "Classes/"
+    }
+  },
+  "replace": {
+    "ad_rtepasteplain": "self.version",
+    "typo3-ter/ad-rtepasteplain": "self.version"
+  }
+}
