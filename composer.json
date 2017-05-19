@@ -2,7 +2,7 @@
   "name": "jokumer/ad_rtepasteplain",
   "type": "typo3-cms-extension",
   "description": "Paste plain text (with MS Word and other Markup stripped off)",
-  "version": "2.1.7",
+  "version": "3.0.0",
   "license": "GPL-2.0+",
   "authors": [
     {
